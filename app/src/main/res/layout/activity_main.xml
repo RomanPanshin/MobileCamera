@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/buttonList"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View List"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
